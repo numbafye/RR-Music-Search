@@ -5,6 +5,7 @@ import SearchBar from "./components/SearchBar";
 import { DataContext } from "./context/DataContext";
 import AlbumView from "./components/AlbumView";
 import ArtistView from "./components/ArtistView";
+import { Fragment } from "react/cjs/react.production.min";
 
 function App() {
   let [search, setSearch] = useState("");
